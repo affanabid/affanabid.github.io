@@ -747,7 +747,7 @@ ol {
 }
 
 .product-filter {
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 
 .product-filter .section-title {
@@ -2314,7 +2314,7 @@ ol {
 	}
 	.features-box .single-box-item.first-box .box-text {
 		right: 95px;
-		top: 29px;
+		top: 22px;
 	}
 	.features-box .single-box-item .box-text h2 {
 		font-size: 40px;
@@ -2323,11 +2323,11 @@ ol {
 		margin-bottom: 7px;
 	}
 	.features-box .single-box-item.second-box .box-text {
-		left: 37px;
-		top: 45px;
+		left: 24px;
+		top: 15px;
 	}
 	.features-box .single-box-item.large-box .box-text {
-		left: 77px;
+		left: 64px;
 		top: 40px;
 	}
 	.features-box .single-box-item.large-box .box-text h2 {
