@@ -1774,7 +1774,7 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 		header.major > :first-child {
@@ -2948,6 +2948,9 @@ input, select, textarea {
 				display: block;
 				position: relative;
 				width: 30%;
+				padding-left: 50px;
+				padding-top: 30px;
+				padding-right: 50px;
 			}
 
 				.spotlights > section > .image img {
@@ -3042,6 +3045,7 @@ input, select, textarea {
 
 				.spotlights > section > .image {
 					width: 100%;
+					padding: 10px 10px 0px 10px;
 				}
 
 				.spotlights > section > .content {
@@ -3054,7 +3058,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlights > section > .content {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 1em 1.5em 1em 1.5em ;
 			}
 
 		}
