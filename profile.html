@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Profile - Affan</title>
@@ -11,6 +7,40 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.section {
+				margin-bottom: 3em;
+				padding: 2em;
+				background: rgba(255, 255, 255, 0.05);
+				border-radius: 8px;
+			}
+			.section h2 {
+				color: #ffffff;
+				margin-bottom: 1.5em;
+				border-bottom: 2px solid #ffffff;
+				padding-bottom: 0.5em;
+			}
+			.skills-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+				gap: 1.5em;
+				margin-top: 1em;
+			}
+			.skill-item {
+				background: rgba(255, 255, 255, 0.1);
+				padding: 1em;
+				border-radius: 6px;
+				text-align: center;
+			}
+			.skill-item h3 {
+				margin: 0;
+				color: #ffffff;
+			}
+			.skill-item p {
+				margin: 0.5em 0 0;
+				color: #9bf1ff;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -41,127 +71,99 @@
 
 				<!-- Main -->
 					<div id="main" class="alt">
-
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h1>Profile</h1>
-									</header>
-									<!-- <span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
-									<p>Welcome to my portfolio website! I'm Affan Abid, first-year Data Science 
-										student at Punjab University College of Information and Technology.</p>
-									<p>Throughout my learning, I have explored and worked on various projects. From writing Python 
-										scripts to developing interactive web applications using HTML, CSS, and JavaScript, 
-										I have honed my skills to leverage the full potential of these tools. Additionally, 
-										I have also worked on Django and Flask, Python web frameworks, to build robust and efficient 
-										web applications. Moreover, I have developed programs using popular Python libraries
-									    including Pandas, NumPy, Selenium, BeautifulSoup, Matplotlib, and Tkinter</p>
-									<p>My portfolio showcases some of the <a href="projects.html">projects</a> I've worked on, 
-										reflecting my passion for data science and its limitless possibilities. I invite you to 
-										explore my creations and witness the dedication and creativity I pour into 
-										each endeavor.</p>
-									<p>Driven by curiosity and a determination to learn and grow, I am constantly 
-										seeking opportunities to expand my horizons. Whether it's participating in 
-										hackathons, attending workshops, or collaborating with like-minded individuals, 
-										I embrace every chance to enhance my skills and gain fresh perspectives.</p>
-									
+						<section id="one">
+							<div class="inner">
+								<!-- <header class="major">
+									<h1>About Me</h1>
+								</header> -->
+								<div class="section">
+									<h2>About me</h2>
+									<p>Welcome to my portfolio website! I'm <b>Affan Abid</b>, third-year Data Science 
+										student at PUCIT. With a keen interest 
+										in technology and data analysis, I'm constantly exploring new ways to leverage data 
+										for meaningful insights.</p>
 								</div>
-								<!-- <div style="padding: 10%;">
-									<p>HTML</p>
-<div class="container">
-  <div class="skills html">90%</div>
-</div>
 
-<p>CSS</p>
-<div class="container">
-  <div class="skills css">80%</div>
-</div>
-
-<p>JavaScript</p>
-<div class="container">
-  <div class="skills js">65%</div>
-</div>
-
-<p>PHP</p>
-<div class="container">
-  <div class="skills php">60%</div>
-</div>
+								<div class="section">
+									<h2>Education</h2>
+									<p><strong style="font-size: 1.5rem;">Punjab University College of Information and Technology (PUCIT)</strong><br>
+										Bachelors in Data Science <br>
+										<b>CGPA: </b> 3.65/4.00 <br>
+										<b>Key Modules and Subjects:</b> Data Mining and Machine Learning, Data Warehouse, 
+										Database Systems, Operating Systems, Artificial Intelligence, Advanced Statistics, 
+										Computer Networks</p>
 								</div>
-							</section>
 
-					</div> -->
-
-				<!-- Contact 
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+								<div class="section">
+									<h2>Skills & Expertise</h2>
+									<div class="skills-grid">
+										<div class="skill-item">
+											<h3>Programming</h3>
+											<p>Python, JavaScript, Java, C++, HTML/CSS</p>
 										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+										<div class="skill-item">
+											<h3>Data Science</h3>
+											<p>Pandas, NumPy, Scikit-Learn, streamlit, Matplotlib, Seaborn, PowerBI, SSIS(SQL)</p>
 										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
+										<div class="skill-item">
+											<h3>Web Development</h3>
+											<p>Django, Flask, BootStrap, NextJS, Frontend Development</p>
 										</div>
+										<div class="skill-item">
+											<h3>Web Scraping</h3>
+											<p>Selenium, BeautifulSoup, Playwright, axios</p>
+										</div>
+										<!-- <div class="skill-item">
+											<h3>GUI Development</h3>
+											<p>Tkinter</p>
+										</div> -->
 									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
+								</div>
+
+								<!-- <div class="section">
+									<h2>Experience & Projects</h2>
+									<p>Throughout my learning journey, I have developed various projects showcasing my skills:</p>
+									<ul>
+										<li>Interactive web applications using HTML, CSS, and JavaScript</li>
+										<li>Robust web applications built with Django and Flask</li>
+										<li>Data analysis and visualization projects using Python libraries</li>
+										<li>Web scraping and automation tools</li>
+										<li>GUI applications using Tkinter</li>
+									</ul> -->
+									<!-- <p>Check out my <a href="projects.html">projects page</a> to see these in detail!</p>
+								</div> -->
+
+								<div class="section">
+									<h2>Interests & Activities</h2>
+									<p>I'm passionate about:</p>
+									<ul>
+										<li>Participating in hackathons and coding competitions</li>
+										<li>Attending workshops and tech conferences</li>
+										<li>Collaborating with like-minded individuals</li>
+										<li>Learning new technologies and frameworks</li>
+										<li>Contributing to open-source projects</li>
 									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
+								</div>
+							</div>
+						</section>
+					</div>
 
-			    Footer 
+				<!-- Footer -->
 					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<div class="inner" style="text-align: center;">
+							<ul class="icons" style="justify-content: center;">
 								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/in/affan-abid-91270b267/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.kaggle.com/affanabid" class="icon brands alt fa-kaggle"><span class="label">Kaggle</span></a></li>
+								<li><a href="affan.abid99@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							<ul class="copyright" style="text-align: center;">
+								<li>&copy; 2025 Affan Abid. All rights reserved.</li>
 							</ul>
 						</div>
 					</footer>
 
-			</div> -->
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
